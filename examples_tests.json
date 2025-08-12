@@ -1,10 +1,1258 @@
 [
     {
-        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/hello_world/serial/hello_serial.elf",
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/blink_simple/blink_simple.elf",
         "buddy_file": "NONE",
-        "success_string": "Hello, world!\r\n",
+        "success_string": "SUCCESS STRING",
         "test_name": "TEST",
         "failure_string": "FAILURE_STRING",
-        "timeout": "5"
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/divider/hello_divider.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/blink/blink.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/ht16k33_i2c/ht16k33_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/ssd1306_i2c/ssd1306_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/mpu6050_i2c/mpu6050_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/lis3dh_i2c/lis3dh_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/mpl3115a2_i2c/mpl3115a2_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/pa1010d_i2c/pa1010d_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/bmp280_i2c/bmp280_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/mcp9808_i2c/mcp9808_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/mma8451_i2c/mma8451_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/slave_mem_i2c/slave_mem_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/slave_mem_i2c/slave_mem_i2c_burst.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/bus_scan/i2c_bus_scan.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/pcf8523_i2c/pcf8523_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/i2c/lcd_1602_i2c/lcd_1602_i2c.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/otp/hello_otp/hello_otp.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/dcp/hello_dcp/hello_dcp.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pwm/led_fade/pwm_led_fade.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pwm/hello_pwm/hello_pwm.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pwm/measure_duty_cycle/pwm_measure_duty_cycle.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/cmake/build_variants/build_variant1.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/cmake/build_variants/build_variant2.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/flash/program/flash_program.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/flash/runtime_flash_permissions/runtime_flash_permissions.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/flash/nuke/flash_nuke.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/flash/partition_info/partition_info.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/flash/xip_stream/flash_xip_stream.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/watchdog/hello_watchdog/hello_watchdog.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/_deps/picotool/enc_bootloader_mbedtls.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/_deps/picotool/enc_bootloader.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/dma/control_blocks/dma_control_blocks.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/dma/hello_dma/hello_dma.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/dma/sniff_crc/sniff_crc.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/dma/channel_irq/dma_channel_irq.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/encrypted/hello_encrypted/hello_encrypted.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/encrypted/hello_encrypted/hello_encrypted_mbedtls.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/sha/sha256/hello_sha256.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/sha/mbedtls_sha256/mbedtls_sha256.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/reset/hello_reset/hello_reset.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/timer/hello_timer/hello_timer.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/timer/timer_lowlevel/timer_lowlevel.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/timer/periodic_sampler/periodic_sampler.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/hello_world/serial/hello_serial.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/hello_world/usb/hello_usb.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/clocks/hello_resus/hello_resus.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/clocks/detached_clk_peri/clocks_detached_clk_peri.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/clocks/hello_48MHz/hello_48MHz.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/clocks/hello_gpout/hello_gpout.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/i2c/pio_i2c_bus_scan.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/uart_dma/pio_uart_dma.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/pwm/pio_pwm.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/clocked_input/pio_clocked_input.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/squarewave/pio_squarewave_div_sync.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/squarewave/pio_squarewave.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/apa102/pio_apa102.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/st7789_lcd/pio_st7789_lcd.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/logic_analyser/pio_logic_analyser.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/quadrature_encoder_substep/pio_quadrature_encoder_substep.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/pio_blink/pio_blink.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/uart_tx/pio_uart_tx.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/addition/pio_addition.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/hello_pio/hello_pio.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/quadrature_encoder/pio_quadrature_encoder.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/manchester_encoding/pio_manchester_encoding.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/uart_rx/pio_uart_rx_intr.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/uart_rx/pio_uart_rx.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/ws2812/pio_ws2812.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/ws2812/pio_ws2812_parallel.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/differential_manchester/pio_differential_manchester.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/onewire/pio_onewire.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/hub75/pio_hub75.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/spi/pio_spi_flash.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/spi/pio_spi_loopback.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/bootloaders/encrypted/enc_bootloader.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/bootloaders/encrypted/hello_serial_enc.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/bootloaders/uart/uart_boot.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/bootloaders/uart/uart_binary.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/system/boot_info/boot_info.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/system/hello_double_tap/hello_double_tap.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/system/rand/rand.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/system/narrow_io_write/narrow_io_write.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/system/unique_board_id/unique_board_id.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/hstx/dvi_out_hstx_encoder/dvi_out_hstx_encoder.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/hstx/spi_lcd/hstx_spi_lcd.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/interp/hello_interp/hello_interp.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/uart/hello_uart/hello_uart.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/uart/uart_advanced/uart_advanced.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/uart/lcd_uart/lcd_uart.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/adc/dma_capture/adc_dma_capture.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/adc/onboard_temperature/onboard_temperature.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/adc/joystick_display/joystick_display.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/adc/read_vsys/read_vsys.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/adc/hello_adc/hello_adc.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/adc/microphone_adc/microphone_adc.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/adc/adc_console/adc_console.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/multicore/hello_multicore/hello_multicore.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/multicore/multicore_runner/multicore_runner.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/multicore/multicore_runner_queue/multicore_runner_queue.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/multicore/multicore_doorbell/multicore_doorbell.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/status_led/color_blink/color_blink.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/status_led/status_blink/status_blink.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/gpio/dht_sensor/dht.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/gpio/hello_7segment/hello_7segment.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/gpio/hello_gpio_irq/hello_gpio_irq.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/binary_info/blink_any/blink_any.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/binary_info/hello_anything/hello_anything.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/spi_dma/spi_dma.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/spi_flash/spi_flash.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/mpu9250_spi/mpu9250_spi.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/bme280_spi/bme280_spi.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/max7219_32x8_spi/max7219_32x8_spi.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/max7219_8x7seg_spi/max7219_8x7seg_spi.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/picoboard/blinky/picoboard_blinky.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/picoboard/button/picoboard_button.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/_deps/picotool-build/enc_bootloader_mbedtls/enc_bootloader.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/_deps/picotool-build/enc_bootloader/enc_bootloader.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/_deps/picotool-src/xip_ram_perms/xip_ram_perms.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/_deps/picotool-src/enc_bootloader/enc_bootloader_mbedtls.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/_deps/picotool-src/enc_bootloader/enc_bootloader.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pio/ir_nec/ir_loopback/pio_ir_loopback.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/dev_hid_composite/dev_hid_composite.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/dev_multi_cdc/dev_multi_cdc.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/dev_lowlevel/dev_lowlevel.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/spi_master_slave/spi_master/spi_master.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/spi/spi_master_slave/spi_slave/spi_slave.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/host/tinyusb_host_examples/cdc_msc_hid/tinyusb_host_cdc_msc_hid.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/host/tinyusb_host_examples/hid_controller/tinyusb_host_hid_controller.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/host/tinyusb_host_examples/bare_api/tinyusb_host_bare_api.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/host/tinyusb_host_examples/msc_file_explorer/tinyusb_host_msc_file_explorer.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/host/tinyusb_host_examples/device_info/tinyusb_host_device_info.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/cdc_msc/tinyusb_dev_cdc_msc.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/hid_composite/tinyusb_dev_hid_composite.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/audio_test/tinyusb_dev_audio_test.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/net_lwip_webserver/tinyusb_dev_net_lwip_webserver.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/hid_multiple_interface/tinyusb_dev_hid_multiple_interface.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/audio_test_multi_rate/tinyusb_dev_audio_test_multi_rate.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/cdc_uac2/tinyusb_dev_cdc_uac2.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/usbtmc/tinyusb_dev_usbtmc.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/uac2_speaker_fb/tinyusb_dev_uac2_speaker_fb.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/video_capture/tinyusb_dev_video_capture.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/hid_boot_interface/tinyusb_dev_hid_boot_interface.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/video_capture_2ch/tinyusb_dev_video_capture_2ch.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/cdc_dual_ports/tinyusb_dev_cdc_dual_ports.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/dynamic_configuration/tinyusb_dev_dynamic_configuration.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/uac2_headset/tinyusb_dev_uac2_headset.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/hid_generic_inout/tinyusb_dev_hid_generic_inout.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/dfu_runtime/tinyusb_dev_dfu_runtime.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/audio_4_channel_mic/tinyusb_dev_audio_4_channel_mic.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/board_test/tinyusb_dev_board_test.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/msc_dual_lun/tinyusb_dev_msc_dual_lun.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/webusb_serial/tinyusb_dev_webusb_serial.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/midi_test/tinyusb_dev_midi_test.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
+    },
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/usb/device/tinyusb_device_examples/dfu/tinyusb_dev_dfu.elf",
+        "buddy_file": "NONE",
+        "success_string": "SUCCESS STRING",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "default"
     }
 ]
