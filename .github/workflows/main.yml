@@ -13,7 +13,7 @@ jobs:
         
       - name: Build changes
         run: |
-          cd ~/actions-runner2/_work/pico-sdk-pigweed/pico-sdk-pigweed
+          cd ~/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed
           git pull
           rm -rf build
           mkdir build 
@@ -29,11 +29,11 @@ jobs:
           path: pigweed_tests
 
       - name: update pigweed tests
-        run: cd ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests
+        run: cd ~/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/pigweed_tests
 
       - name: Run Python script
         run: |
-          python3 ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/examples_tests.json
+          python3 ~/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/examples_tests.json
 
       - name: Upload results as artifact
         if: always()
