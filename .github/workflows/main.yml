@@ -1,0 +1,43 @@
+name: Pigweed runner
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  run-python-on-selfhosted:
+    runs-on: self-hosted 
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: Build changes
+        run: |
+          cd ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed
+          git pull
+          rm -rf build
+          mkdir build 
+          cd build 
+          cmake .. -DPICO_BOARD=pigweed_dut -DPICO_SDK_PATH=~/pico/pico-sdk
+          cd test
+          make -j4
+          
+      - name: Checkout pigweed test script
+        uses: actions/checkout@v4
+        with:
+          repository: Louis31423142/pigweed_tests
+          path: pigweed_tests
+
+      - name: update pigweed tests
+        run: cd ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests
+
+      - name: Run Python script
+        run: |
+          python3 ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests/auto-tester.py --dut ttyACM0 --buddy ttyACM1 --tests ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/pigweed_tests.json
+
+      - name: Upload results as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pigweed-test-results
+          path: ~/actions-runner/_work/pico-sdk-pigweed/pico-sdk-pigweed/results.json
