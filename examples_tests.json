@@ -1,1 +1,10 @@
-
+[
+    {
+        "dut_file": "/home/louis/actions-runner2/_work/pico-examples-pigweed/pico-examples-pigweed/build/hello_world/serial/hello_serial.elf",
+        "buddy_file": "NONE",
+        "success_string": "Hello, world!\r\n",
+        "test_name": "TEST",
+        "failure_string": "FAILURE_STRING",
+        "timeout": "5"
+    }
+]
